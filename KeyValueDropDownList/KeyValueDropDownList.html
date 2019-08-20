@@ -1,0 +1,4 @@
+<div ng-controller="KeyValueDropDownListController" class="wmd-panel">
+    <!--http://www.undefinednull.com/2014/08/11/a-brief-walk-through-of-the-ng-options-in-angularjs/-->
+    <select ng-model="model.value" ng-options="item.value as item.name for item in nameValueList" />
+</div>

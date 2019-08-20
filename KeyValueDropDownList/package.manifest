@@ -1,0 +1,25 @@
+{
+	propertyEditors: [
+		{
+			alias: "Fluent.KeyValueDropDownList",
+			name: "Key:Value DropDown List",
+			editor: {
+				view: "~/App_Plugins/KeyValueDropDownList/KeyValueDropDownList.html"
+			},
+			prevalues: {
+				fields: [
+					{
+						label: "Key:Value Mapping",
+						description: "Enter key:Value for the dropdown list, each on a new line.<br />example: <br />0:Select One<br />1:Green<br />2:Red",
+						key: "names",
+						view: "textarea",
+						validation: [ { type: "Required" } ]
+					}
+				]
+			}
+		}
+	],
+	javascript: [
+		'~/App_Plugins/KeyValueDropDownList/KeyValueDropDownList.controller.js'
+	]
+}
