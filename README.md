@@ -33,3 +33,6 @@ Adds a new Propery Editor which allows you to enter key/value pairs to be listed
   
 #### Credit:
 This is code pretty much unchanged from an [Umbraco forum post by Ian Granger.](https://our.umbraco.com/forum/umbraco-7/using-umbraco-7/64690-Simple-package-not-available-TextValue-Dropdown-List)
+
+This has been tested on Umbraco v8.1.x, but it should work on older versions as well. 
+Pull Requests welcomed.
